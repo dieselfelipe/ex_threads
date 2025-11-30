@@ -13,7 +13,7 @@ public class GeraDownloads {
         Thread t3 = new Thread(d3);
         Thread t4 = new Thread(d4);
 
-        System.out.println("Iniciando downloads simultâneos... /n");
+        System.out.println("Iniciando downloads simultâneos... ");
 
         t1.start();
         t2.start();
